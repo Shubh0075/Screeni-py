@@ -316,7 +316,7 @@ class tools:
         spinner = 'waves'
         if 'Windows' in platform.platform():
             bar = 'classic2'
-            spinner = 'dots_recur'
+            spinner = 'dots'
         return bar, spinner
 
     def getNiftyModel(proxyServer=None):
